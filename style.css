@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: #7fffd4;
+    background-image: url('bg1.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+}
+.navbar-title{
+    text-decoration: none;
+}
+.h1{
+    text-align: center;
+    text-shadow: black 2px 3px 4px;
+    /* margin-top: 100px; */
+}
+.indexh2{
+    text-align: center;
+    text-shadow:rosybrown 2px 3px 4px;
+}
+/* .logo-img{
+    width: 250vw;
+    height: 250vh;
+    margin-left: 43%;
+} */
+.form{
+    margin-top: 20px;
+    border: 3px solid black;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+}
+.input{
+    margin-top: 40px;
+    /* align-items: center;
+    align-items: baseline; */
+    /* display: flex; */
+    gap: 10px;
+    text-align: center;
+}
+.btn1{
+   padding: 4px;
+    background-color: brown;
+    color: aliceblue;
+    text-decoration: none;
+}
+.btn1:hover{
+    background-color: green;
+    color: black;
+}
+.card text-center{
+    margin-top: 2%;
+}
+
+
+
+
+/* home page */
+.homeh1{
+    text-align: center;
+    text-shadow: black 2px 3px 4px;
+}
+.home-body{
+    background-color:beige;
+}
+.home-body{
+    background-image: url('bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body3{
+    background-image: url('bg3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.order1-body{
+    background-image: url('bg4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body5{
+    background-image: url('bg5.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body6{
+    background-image: url('bg6.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+/* order page 1 */
+.order1-body{
+    background-color: navajowhite;
+}
+.orderh2{
+    text-align: center;
+    text-shadow: black 4px 5px 6px;
+    color: aliceblue;
+}
+.orderp{
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 150px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+.card img{
+    height: 320px;
+}
+
+
+/* Billing Page */
+.containerb{
+    margin-top: 20px;
+    border: 3px solid black;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+
+}
+#order-formb{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.submitb{
+    padding: 4px;
+}
+.h1billing{
+    text-align: center;
+    text-shadow: blue 2px 4px 5px;
+}
+#feedback{
+    font-size: 16px;
+    color: green;
+   
+    font-family: 'Courier New', Courier, monospace;
+}
